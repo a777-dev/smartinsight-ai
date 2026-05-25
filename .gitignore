@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.Python
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Generated model artifacts (will be created on first run)
+models/
+models/*.pkl
+models/*.json
+
+# Processed data (will be created from raw data on first run)
+data/processed_behavioral_data.csv
+
+# Cache
+.cache/
+.pytest_cache/
+
+# Developer instructions (private)
+DEVELOPER_INSTRUCTIONS*.pdf
+
+# Temporary files
+*.tmp
+*.temp
+.temp/

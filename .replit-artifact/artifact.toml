@@ -1,0 +1,13 @@
+kind = "web"
+previewPath = "/"
+title = "Behavioral Intelligence Advisor"
+version = "1.0.0"
+id = "behavioral-advisor-streamlit"
+
+[[services]]
+localPort = 8000
+name = "web"
+paths = ["/"]
+
+[services.development]
+run = "streamlit run Home.py --server.port 8000"

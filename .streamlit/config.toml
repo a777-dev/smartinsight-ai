@@ -1,0 +1,29 @@
+[theme]
+base = "dark"
+primaryColor = "#6366F1"
+backgroundColor = "#070C18"
+secondaryBackgroundColor = "#0D1424"
+textColor = "#F0F4FF"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = true
+port = 8000
+enableCORS = false
+enableXsrfProtection = false
+maxUploadSize = 200
+maxMessageSize = 200
+
+[client]
+showErrorDetails = false
+toolbarMode = "viewer"
+
+[logger]
+level = "info"
+
+[cache]
+maxEntries = 1000
+ttlSeconds = 3600
