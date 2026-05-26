@@ -24,6 +24,3 @@ toolbarMode = "viewer"
 [logger]
 level = "info"
 
-[cache]
-maxEntries = 1000
-ttlSeconds = 3600
